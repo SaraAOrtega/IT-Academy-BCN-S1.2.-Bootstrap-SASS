@@ -1,0 +1,155 @@
+//////colores/////
+
+$primary: #5265E1;
+$secondary: #FA5959;
+$dark:  #0d0459; 
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+///FQAs////
+
+$accordion-icon-color: $primary; 
+$accordion-icon-active-color: $secondary;  
+$accordion-button-active-bg: none; 
+$accordion-button-focus-box-shadow: none; 
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-toggler{
+    border: none; 
+}
+
+.img-main {
+    position: relative;
+}
+
+.img-tabs {
+    position: relative;
+}
+
+.bgHero {
+    position: absolute; 
+    z-index: -1;
+    border: none;
+    width: 70%;
+    height: 78%;
+    top: 25%;
+    right: 0 ;
+    border-bottom-left-radius: 150px;
+}
+
+.bgTabs{
+    position: absolute;
+    z-index: -1;
+    width: 65%;
+    height: 80%;
+    top: 40%;
+    left: 0%;
+    border-bottom-right-radius: 150px; 
+}
+
+ @media (max-width: 576px) {
+    .bgHero {
+    width: 80%;
+    height: 70%;
+    top: 95px; 
+    }
+    .bgTabs {
+    width: 65%;
+    height: 70%;
+    top: 40%
+    }
+    .tabs1 {
+        padding: none;
+    }
+
+ }
+
+ @media (max-width: 756px) {
+    .bgHero {
+    width: 80%;
+    height: 70%;
+    top: 95px; 
+    }
+    .bgTabs {
+    width: 65%;
+    height: 70%;
+    top: 40%; 
+    .tabs1 {
+        padding: none;
+    }
+
+  }
+
+ }
+.tabs1{
+    padding-left: 50px;
+}
+
+.img-hero{
+    padding-right: 20px;
+}
+
+
+.nav-link:hover{
+    color:$secondary !important
+}
+
+.nav-item-border-bottom-red{
+    border-bottom: solid 4px #FA5959
+}
+
+.nav-item-border-bottom{
+    border-bottom: solid 2px #9697a2
+}
+
+.card {
+    border: none; 
+    width: 250px;  
+}
+
+
+.btn-secondary:hover{ 
+    background-color: white; 
+    border-color: #FA5959; 
+    color: $secondary !important
+}
+
+.btn-primary:hover{ 
+    background-color: white; 
+    border-color: #5265E1; 
+    color: $primary !important
+}
+
+
+.btn-light:hover{ 
+    background-color: white;  
+    border-color: #444649; 
+    color: $dark; 
+}
+
+
+@media screen and (max-width: 756px) {
+    .ms-5 {
+        margin-left: 0 !important; 
+    }
+    .ps-5 {
+        padding-left: 0 !important; 
+    }
+}
+
+.footerButton {
+
+    color: white; 
+}
+
+
+
+
