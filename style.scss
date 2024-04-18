@@ -26,18 +26,9 @@ $accordion-button-focus-box-shadow: none;
     border: none; 
 }
 
-.img-main {
-    position: relative;
-}
-
-.img-tabs {
-    position: relative;
-}
-
 .bgHero {
     position: absolute; 
     z-index: -1;
-    border: none;
     width: 70%;
     height: 78%;
     top: 25%;
@@ -48,62 +39,65 @@ $accordion-button-focus-box-shadow: none;
 .bgTabs{
     position: absolute;
     z-index: -1;
-    width: 65%;
-    height: 80%;
-    top: 40%;
+    width: 40%;
+    height: 25%;
+    top: 120%;
     left: 0%;
     border-bottom-right-radius: 150px; 
 }
 
+@media (max-width: 992px) {
+    .bgHero {
+    width: 75%;
+    height: 60%;
+    top: 130px; 
+    }
+    .bgTabs {
+        width: 35%;
+        height: 20%;
+        top: 110%; 
+    };
+    }
+
+@media (max-width: 768px) {
+    .bgHero {
+    width: 60%;
+    height: 60%;
+    top: 180px; 
+    }
+    .bgTabs {
+        width: 50%;
+        height: 20%;
+        top: 152%; 
+    };
+    }
+
+
+
  @media (max-width: 576px) {
     .bgHero {
-    width: 80%;
-    height: 70%;
-    top: 95px; 
+    width: 60%;
+    height: 50%;
+    top: 145px; 
     }
     .bgTabs {
-    width: 65%;
-    height: 70%;
-    top: 40%
-    }
-    .tabs1 {
-        padding: none;
+        width: 70%;
+        height: 35%;
+        top: 160%; 
+    };
     }
 
- }
-
- @media (max-width: 756px) {
-    .bgHero {
-    width: 80%;
-    height: 70%;
-    top: 95px; 
-    }
-    .bgTabs {
-    width: 65%;
-    height: 70%;
-    top: 40%; 
-    .tabs1 {
-        padding: none;
-    }
-
-  }
-
- }
-.tabs1{
-    padding-left: 50px;
-}
 
 .img-hero{
     padding-right: 20px;
 }
 
+.imgTabs{
+    position: relative; 
+}
 
 .nav-link:hover{
     color:$secondary !important
-}
-
-.nav-item-border-bottom-red{
-    border-bottom: solid 4px #FA5959
 }
 
 .nav-item-border-bottom{
@@ -149,7 +143,5 @@ $accordion-button-focus-box-shadow: none;
 
     color: white; 
 }
-
-
 
 
