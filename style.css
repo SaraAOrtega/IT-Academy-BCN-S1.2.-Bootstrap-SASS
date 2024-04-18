@@ -11982,55 +11982,55 @@ textarea.form-control-lg {
 .bgTabs {
   position: absolute;
   z-index: -1;
-  width: 40%;
-  height: 25%;
-  top: 120%;
+  width: 30%;
+  height: 40%;
+  top: 140%;
   left: 0%;
   border-bottom-right-radius: 150px;
 }
 
 @media (max-width: 992px) {
   .bgHero {
-    width: 75%;
+    width: 60%;
     height: 60%;
-    top: 130px;
+    top: 150px;
   }
   .bgTabs {
-    width: 35%;
-    height: 20%;
-    top: 110%;
+    width: 40%;
+    height: 25%;
+    top: 105%;
   }
 }
 @media (max-width: 768px) {
   .bgHero {
     width: 60%;
     height: 60%;
-    top: 180px;
+    top: 150px;
   }
   .bgTabs {
     width: 50%;
-    height: 20%;
-    top: 152%;
+    height: 25%;
+    top: 185%;
   }
 }
 @media (max-width: 576px) {
   .bgHero {
     width: 60%;
-    height: 50%;
-    top: 145px;
+    height: 60%;
+    top: 150px;
   }
   .bgTabs {
-    width: 70%;
-    height: 35%;
-    top: 160%;
+    width: 60%;
+    height: 40%;
+    top: 215%;
   }
 }
-.img-hero {
-  padding-right: 20px;
+.img-tabs {
+  position: relative;
 }
 
-.imgTabs {
-  position: relative;
+.img-hero {
+  padding-right: 20px;
 }
 
 .nav-link:hover {
